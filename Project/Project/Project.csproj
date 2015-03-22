@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{254BF098-1E13-4C00-A93F-200E1CD25116}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Edit_Absent_Players.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Absent_Players.Designer.cs">
+      <DependentUpon>Add_Edit_Absent_Players.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Champ_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Champ_Type.Designer.cs">
+      <DependentUpon>Add_Edit_Champ_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Competition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Competition.Designer.cs">
+      <DependentUpon>Add_Edit_Competition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Contract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Contract.Designer.cs">
+      <DependentUpon>Add_Edit_Contract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Employee.Designer.cs">
+      <DependentUpon>Add_Edit_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Injuries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Injuries.Designer.cs">
+      <DependentUpon>Add_Edit_Injuries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Injury_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Injury_Type.Designer.cs">
+      <DependentUpon>Add_Edit_Injury_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Jobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Jobs.Designer.cs">
+      <DependentUpon>Add_Edit_Jobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Match.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Match.Designer.cs">
+      <DependentUpon>Add_Edit_Match.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Performance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Performance.Designer.cs">
+      <DependentUpon>Add_Edit_Performance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Player.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Player.Designer.cs">
+      <DependentUpon>Add_Edit_Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Sponsor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Sponsor.Designer.cs">
+      <DependentUpon>Add_Edit_Sponsor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Training.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Training.Designer.cs">
+      <DependentUpon>Add_Edit_Training.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_Training_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_Training_Type.Designer.cs">
+      <DependentUpon>Add_Edit_Training_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Edit_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Edit_User.Designer.cs">
+      <DependentUpon>Add_Edit_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBmanager.cs" />
+    <Compile Include="Manipulate_Look_Up.cs" />
+    <Compile Include="Player_Performance_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player_Performance_Menu.Designer.cs">
+      <DependentUpon>Player_Performance_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="User_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_History.Designer.cs">
+      <DependentUpon>User_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Menu.Designer.cs">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StoredProcedures.cs" />
+    <EmbeddedResource Include="Add_Edit_Absent_Players.resx">
+      <DependentUpon>Add_Edit_Absent_Players.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Champ_Type.resx">
+      <DependentUpon>Add_Edit_Champ_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Competition.resx">
+      <DependentUpon>Add_Edit_Competition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Contract.resx">
+      <DependentUpon>Add_Edit_Contract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Employee.resx">
+      <DependentUpon>Add_Edit_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Injuries.resx">
+      <DependentUpon>Add_Edit_Injuries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Injury_Type.resx">
+      <DependentUpon>Add_Edit_Injury_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Jobs.resx">
+      <DependentUpon>Add_Edit_Jobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Match.resx">
+      <DependentUpon>Add_Edit_Match.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Performance.resx">
+      <DependentUpon>Add_Edit_Performance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Player.resx">
+      <DependentUpon>Add_Edit_Player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Sponsor.resx">
+      <DependentUpon>Add_Edit_Sponsor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Training.resx">
+      <DependentUpon>Add_Edit_Training.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_Training_Type.resx">
+      <DependentUpon>Add_Edit_Training_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Edit_User.resx">
+      <DependentUpon>Add_Edit_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player_Performance_Menu.resx">
+      <DependentUpon>Player_Performance_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_History.resx">
+      <DependentUpon>User_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Menu.resx">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1386890078_Select.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

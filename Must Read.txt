@@ -1,0 +1,29 @@
+Describtion: The Project is created using Microsoft SQL Server and Visual C# and i currently develop it to add more
+functionality
+*************************************
+Instructions: 
+(1) Run TeamDB to create the database.
+(2) Open the stored procedures folder and run them in Sql server.
+(3) Open the project solution in the folder Project and build the project.
+(4) From the project Open file DBManager.cs and change the connection string with your new database connection
+string.
+(5) Run the application.
+(6) waiting your feedback.
+*************************************
+Username: Team8
+Password: 1
+*************************************
+System Users:
+(1) Admin: Full Privileges.
+(2) Add Employee: Responsible for all addition operations except for adding new user.
+(3) Edit Employee: Responsible for all Edit operations except for editing and deleting user.
+(4) Doctor: Can view Players Information , Add and delete Injuries and define injury types.
+(5) Trainer: Can view Players Information , Add and delete Training , define training types and set players'
+performance.
+(6) Manager: View the Database.
+**************************************
+System Functionalities:
+(1) Perform basic Operations Like (Add,Update,Delete)
+(2) User History (Administrator Only)
+still adding new functionalities.
+**************************************** 
